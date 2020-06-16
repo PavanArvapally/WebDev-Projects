@@ -1,3 +1,3 @@
 # WebDev-Projects
 ## My learning time projects:
-[counter](/counter)
+[counter](WebDev-Projects/counter)
