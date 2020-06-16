@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+.heading{
+	text-align: center;
+	color:black;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.button-panel{
+	/*align-content: center;*/
+	text-align: center;
+/*	margin-right: auto;
+	margin-left: auto;*/
+}
+button{
+	border-radius: 7px;
+	padding: 3px 8px 3px 8px;
+	transition: background-color 0.5s;
+	margin-left: 15px;
+	letter-spacing:3px;
+	background-color:  #89a2cecc;
+	border: solid black ; 
+}
+button:hover{
+	background-color: black;
+	color:white;
+}
+.count{
+	text-align: center;
+	margin-bottom: 64px;
+	margin-top: 68px;
+	font-size: 100px;
+	font-family: monospace;
+}
+
+body{
+	background-color: #9aabc9cc;
+}
