@@ -1,4 +1,4 @@
 # WebDev-Projects
 ## My learning time projects:
-- [counter](counter)
+- [Counter](Counter)
 - [Color Flipper](Color%20Flipper)
