@@ -16,18 +16,22 @@ function countChecker(){
 	 }
 }
 $(".count").innerText=count;
-$("#increse").addEventListener("click",function(){
+$("#increase").addEventListener("click",function(){
 	clearInterval(decrementId);
-	if(incrementId==-1)
+	if(incrementId==-1){
 	incrementId=setInterval(increaseCount,1000);
+	decrementId=-1;
+	}
 });
 
 $("#reset").addEventListener("click",resetCount);
 
 $("#decrease").addEventListener("click",function(){
 	clearInterval(incrementId);
-	if (decrementId==-1)
+	if (decrementId==-1){
 	decrementId=setInterval(decreaseCount,1000);
+	incrementId=-1;
+}
 });
 
 function increaseCount(){
