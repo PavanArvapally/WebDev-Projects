@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 60PX;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+button{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    letter-spacing: 2.5px;
+    padding: 7px 20px 7px 20px;
+
+}
+
+button:hover{
+    background-color:red
+}
+p{
+    text-align: center;
+    background-color: red;
+}
