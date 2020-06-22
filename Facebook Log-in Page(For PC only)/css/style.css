@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3d5a99;
+    height: 90px;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0px;
+    background:no-repeat;
+    background-image: linear-gradient(180deg, #ffffff, #eff0f7);
+    height: 690px;
+}
+
+.title {
+    font-weight: 700;
+    float: left;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 18%;
+    top: 35%;
+}
+
+.login {
+    float: right;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+
+.email {
+    color: white;
+    float: left;
+    margin-right: 15px;
+}
+
+.passwordContainer {
+    color: white;
+    float: left;
+    margin-right: 15px;
+}
+
+#logInBtn {
+    color: white;
+    height: 23px;
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+#forgotten {
+    color: #90a9c7;
+    font-size: 14px;
+
+}
+
+#password {
+    margin-bottom: 3px;
+    margin-top: 7px
+}
+
+#userName {
+    margin-top: 7px
+}
+
+#label1 {
+    font-size: 14px;
+}
+
+#label2 {
+    font-size: 14px;
+}
+
+.image {
+    margin-top: 10px;
+    width: 536px;
+    height: 194px;
+}
+
+.wholeContent {
+    margin: 0 auto;
+    width: 1000px;
+    height: 640px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 43px;
+    color: #0e385f;
+    line-height: 32px;
+    width: 450px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.rc1 {
+    position: relative;
+    top: 35px;
+    margin-left: 40px;
+}
+
+.leftContent {
+    float: left;
+}
+
+.rightContent {
+    height: 600px;
+    width: 450px;
+    float: left;
+
+}
+
+#rc1-1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+#rc1-2 {
+    font-size: 21px;
+}
+
+.fullName {
+    margin-top: 20px;
+}
+
+#fname {
+    height: 35px;
+    width: 190px;
+    padding: 12px 10px 8px 10px !important;
+    border-color:#c5cedd;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: transparent;
+}
+
+input#fname::placeholder {
+    font-size: 18px;
+    word-spacing: 2px;
+    border-color: #bdc7d8;
+}
+#sname {
+    margin-left: 10px;
+    height: 35px;
+    width: 190px;
+    padding: 12px 10px 8px 10px !important;
+    border-color:#c5cedd;
+    border-radius: 5px;
+    border-width: 1px ;
+    background-color: transparent;
+}
+
+input#sname::placeholder {
+    font-size: 18px;
+    word-spacing: 2px;
+    border-color: #bdc7d8;
+}
+#email {
+    
+    height: 35px;
+    width: 395px;
+    padding: 12px 10px 8px 10px !important;
+    border-color:#c5cedd;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+input#email::placeholder {
+    font-size: 18px;
+    word-spacing: 2px;
+    border-color: #bdc7d8;
+}
+#newPassword {
+    
+    height: 35px;
+    width: 395px;
+    padding: 12px 10px 8px 10px !important;
+    border-color:#c5cedd;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+input#newPassword::placeholder {
+    font-size: 18px;
+    word-spacing: 2px;
+    border-color: #bdc7d8;
+}
+.birthday{
+    color:#90949c;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.pickBirthday{
+    margin-top: 10px;
+}
+#date{
+    width: 55px;
+    padding: 5px;
+}
+#month{
+    width: 60px;
+    padding: 5px;
+}
+#year{
+    width: 65px;
+    padding: 5px;
+}
+#info{
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+}
+.gender{
+    color:#90949c;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.pickGender{
+    margin-top: 10px;
+}
+.radioText{
+    color: #1c1e24;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px
+}
+div p{
+    font-size: 14px;
+}
+#signUp{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-width: 1.3px;
+    border-color: #6f6e6d;
+    letter-spacing: 1px;
+    padding: 7px 20px 9px 20px;
+}
+#specialAccounts{
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+footer{
+    clear: both;
+    margin: 0 auto;
+    width: 1000px;
+    color: #737373;
+    font-size: 14px;
+}
+   
+#copyRight{
+    text-align: center;
+}
